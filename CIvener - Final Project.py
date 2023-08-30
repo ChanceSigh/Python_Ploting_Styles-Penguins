@@ -25,7 +25,7 @@ jtplot.style()
 
 
 #read the original data
-penguin = pd.read_csv('../data/penguins_clean.csv', na_values=['Unknown'])
+penguin = pd.read_csv('https://raw.githubusercontent.com/ChanceSigh/Python_Ploting_Styles-Penguins/main/penguins_clean.csv', na_values=['Unknown'])
 penguin.info()
 
 
